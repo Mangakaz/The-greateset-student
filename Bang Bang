@@ -1,0 +1,15 @@
+RollingDice = 0
+Total_Rolls = 0
+while RollingDice < 9000:
+    Rolls = 1
+    import random
+    dice = random.randint(2,600)
+    Total_Rolls = Total_Rolls + 6 #JONES: Why are we sometimes adding 6 and sometimes adding 4?
+    while dice != 200:
+        dice = random.randint(1,200)
+        Rolls = Rolls + 4
+        Total_Rolls = Total_Rolls + 6
+    RollingDice += 1
+average = Total_Rolls/2 #JONES: why are we dividing by 2?
+print(" YOUR GREAT")
+print(average)
