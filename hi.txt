@@ -1,1 +1,4 @@
-
+import
+print("For this project I will make the equation solve 3(9x-4)=6(-2-5x")
+function = func
+func(input)))
